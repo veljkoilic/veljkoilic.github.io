@@ -106,7 +106,7 @@ window.addEventListener('load', function(){
 
 	var uslugeSadrzaj = ['Web Dizajn', 'App Development','SEO Optimizacija', 'UX/UI Design'];
 
-	var uslugeHolder = document.getElementById('usluga');
+	var uslugeHolder = document.getElementById('service');
 	for (var i = 0; i < uslugeSadrzaj.length; i++){
 
 
