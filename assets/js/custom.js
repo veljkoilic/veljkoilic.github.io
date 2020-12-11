@@ -90,7 +90,6 @@
 		  $('#leftPhoneImg').css('-moz-transform','rotate('+relativeY/30+'deg)');
 		  $('#leftPhoneImg').css('transform','rotate('+relativeY/30+'deg)');		
 		}));
-	
 
 })(window.jQuery);
 

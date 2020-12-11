@@ -114,4 +114,5 @@ window.addEventListener('load', function(){
 		<option value="`+ i +`">`+uslugeSadrzaj[i] +`</option>
 		`
 	}
+
 });
