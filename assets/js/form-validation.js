@@ -73,7 +73,14 @@ document.getElementById('contact').addEventListener('submit', function(event){
     else{
         addError(message); validated = false;
         }
+    //validacija za service
+    if(serviceValue >=0 && serviceValue<=3){
+        removeError(service);
 
+    }else{
+        addError(service); validated = false;
+
+    }
 
     function validateForm(value, regularExpression)
     {

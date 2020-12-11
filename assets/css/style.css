@@ -1028,6 +1028,7 @@ footer .right-content {
   outline: none;
   border: none;
   border: 1px solid #eee;
+  padding-left: 15px;
 
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none; /* Safari and Chrome */
@@ -1270,5 +1271,12 @@ margin: 50px auto;
 }
 .error-message-show{
   display: block;
-  color: red;
+  color: #fff;
+  background: #fba70b;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  padding: 3px;
+  z-index: 10;
 }

@@ -19,7 +19,7 @@ window.addEventListener('load', function(){
                             <h4>`+ karticeSadrzaj[i][2]+`</h4>
                             <p>`+ karticeSadrzaj[i][3]+`</p>
                             <button type="button" class="main-button" data-toggle="modal" data-target="#`+ karticeSadrzaj[i][6] +`">
-                                Read More
+                                Pogledaj Snimak
                             </button>
                         </div>
                     </div>
