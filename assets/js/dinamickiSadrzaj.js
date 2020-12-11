@@ -1,9 +1,9 @@
 window.addEventListener('load', function(){
 	//dinamicko ispisivanje kartica
 	var karticeSadrzaj = [
-		['01', 'features-icon-1.png', 'Analiziramo Trendove', 'Vršimo analizu i detaljno proučavamo tržište kao i sve probleme koje možemo da rešimo za vas', '#testimonials', 'enter left move 30px over 0.6s after 0.4s', 'Modal1','https://www.youtube.com/embed/VLoa4XBFWhg'],
-		['02', 'features-icon-2.png', 'Optimizujemo Rešenja', 'Pružamo potpunu optimizaciju vaše aplikacije i staramo se o tome da to tako i ostane. Zauvek.', '#testimonials', 'enter bottom move 30px over 0.6s after 0.4s', 'Modal2','https://www.youtube.com/embed/QF5eWapHM5s'],
-		['03', 'fire.png', 'Pravimo Proizvod', 'Pažljivo i brzo dolazimo do rešenja koje vas sigurno neće izneveriti. Naši korisnici vam mogu potvrditi isto.', '#testimonials', 'enter right move 30px over 0.6s after 0.4s', 'Modal3','https://www.youtube.com/embed/dgFlgAxwwoM']
+		['01', 'features-icon-1.png', 'Analiziramo Trendove', 'Vršimo analizu i detaljno proučavamo tržište kao i sve probleme koje možemo da rešimo za vas', '#testimonials', 'enter left move 30px over 0.6s after 0.4s', 'Modal1','https://www.youtube.com/embed/VLoa4XBFWhg','Analiza trendova'],
+		['02', 'features-icon-2.png', 'Optimizujemo Rešenja', 'Pružamo potpunu optimizaciju vaše aplikacije i staramo se o tome da to tako i ostane. Zauvek.', '#testimonials', 'enter bottom move 30px over 0.6s after 0.4s', 'Modal2','https://www.youtube.com/embed/QF5eWapHM5s','Optimizacija resenja'],
+		['03', 'fire.png', 'Pravimo Proizvod', 'Pažljivo i brzo dolazimo do rešenja koje vas sigurno neće izneveriti. Naši korisnici vam mogu potvrditi isto.', '#testimonials', 'enter right move 30px over 0.6s after 0.4s', 'Modal3','https://www.youtube.com/embed/dgFlgAxwwoM','Pravljenje Proizvoda']
 
 	];
 	var cardHolder = document.getElementById('cardHolder');
@@ -15,7 +15,7 @@ window.addEventListener('load', function(){
                     <div class="features-item">
                         <div class="features-icon">
                             <h2>`+ karticeSadrzaj[i][0]+`</h2>
-                            <img src="assets/images/`+ karticeSadrzaj[i][1]+`" alt="">
+                            <img src="assets/images/`+ karticeSadrzaj[i][1]+`" alt="`+ karticeSadrzaj[i][8] +`">
                             <h4>`+ karticeSadrzaj[i][2]+`</h4>
                             <p>`+ karticeSadrzaj[i][3]+`</p>
                             <button type="button" class="main-button" data-toggle="modal" data-target="#`+ karticeSadrzaj[i][6] +`">
@@ -53,9 +53,9 @@ window.addEventListener('load', function(){
 
 	//dinamicko ucitavanje specifikacija
 	var specifikacijeSadrzaj = [
-		['about-icon-01.png','Naše aplikacije su brze','Koristimo najnovije tehnologije i staramo se da svaki aspekt našeg proizvoda radi kao švajcarski sat!','enter right move 30px over 0.6s after 0.4s'],
-		['about-icon-02.png','Naše Aplikacije su lepe','Upotrebom najsavremenijeg dizajna i učešćem našeg UX/UI tima dobijate maksimalnu estetičnost dizajna.','enter right move 30px over 0.6s after 0.5s'],
-		['about-icon-03.png','Naše aplikacije rade','Proizvodi, koje pravi Vector, su pouzdani i retko se kvare. Konstantna podrška i održavanje se kod nas podrazumevaju.','enter right move 30px over 0.6s after 0.6s']
+		['about-icon-01.png','Naše aplikacije su brze','Koristimo najnovije tehnologije i staramo se da svaki aspekt našeg proizvoda radi kao švajcarski sat!','enter right move 30px over 0.6s after 0.4s','Brzo ikonica'],
+		['about-icon-02.png','Naše Aplikacije su lepe','Upotrebom najsavremenijeg dizajna i učešćem našeg UX/UI tima dobijate maksimalnu estetičnost dizajna.','enter right move 30px over 0.6s after 0.5s','Lepo ikonica'],
+		['about-icon-03.png','Naše aplikacije rade','Proizvodi, koje pravi Vector, su pouzdani i retko se kvare. Konstantna podrška i održavanje se kod nas podrazumevaju.','enter right move 30px over 0.6s after 0.6s','Radi ikonica']
 	];
 
 	var specifikacijeHolder = document.getElementById('specifikacijeHolder');
@@ -64,7 +64,7 @@ window.addEventListener('load', function(){
 		specifikacijeHolder.innerHTML += `
 		
 		<li data-scroll-reveal="`+specifikacijeSadrzaj[i][3] +`">
-			<img src="assets/images/`+specifikacijeSadrzaj[i][0] +`" alt="">
+			<img src="assets/images/`+specifikacijeSadrzaj[i][0] +`" alt="`+specifikacijeSadrzaj[i][4] +`">
 				<div class="text">
 					<h4>`+specifikacijeSadrzaj[i][1] +`</h4>
 					<p>`+specifikacijeSadrzaj[i][2] +`</p>
@@ -89,7 +89,7 @@ window.addEventListener('load', function(){
 
     <div class="item service-item">
 		<div class="author">
-			<i><img src="assets/images/`+ utisciSadrzaj[i][0] +`" alt="Author Third"></i>
+			<i><img src="assets/images/`+ utisciSadrzaj[i][0] +`" alt="Slika `+ utisciSadrzaj[i][2] +`"></i>
 		</div>
 		<div class="testimonial-content">
 			<h4>`+ utisciSadrzaj[i][2] +`</h4>
