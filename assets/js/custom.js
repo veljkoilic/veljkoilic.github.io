@@ -1,3 +1,5 @@
+$(document).ready(function () {
+
 (function ($) {
 
 	"use strict";
@@ -32,7 +34,7 @@
 		});
 
 
-	$(document).ready(function () {
+	
 		$('#welcome').addClass('active');
 
 		//Klik zatvara meni na mobilnom
@@ -44,7 +46,7 @@
 
 			}
 		});
-	});
+
 
 	//Podesiti 'active' klasu u navigaciji na ono sto je u viewportu
 	$(window).scroll(function (event) {
@@ -92,4 +94,4 @@
 		}));
 
 })(window.jQuery);
-
+});

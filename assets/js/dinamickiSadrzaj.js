@@ -87,7 +87,7 @@ window.addEventListener('load', function(){
 
 		utisciHolder.innerHTML += `
 
-    <div class="item service-item">
+    <div class="item service-item" data-scroll-reveal="enter left move 30px over 0.`+ 6 + i +`s after 0.`+ 4 + i +`s">
 		<div class="author">
 			<i><img src="assets/images/`+ utisciSadrzaj[i][0] +`" alt="Slika `+ utisciSadrzaj[i][2] +`"></i>
 		</div>
