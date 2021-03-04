@@ -1,0 +1,26 @@
+ [
+    {
+        "id": 1,
+        "title":"John",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+        "images": [
+                    {"src": "./img/1.jpg", "alt":"Chair1"},
+                    {"src": "./img/1.jpg", "alt":"Chair1"},
+                    {"src": "./img/1.jpg", "alt":"Chair1"},
+                    {"src": "./img/1.jpg", "alt":"Chair1"}
+                  ],
+        "price": 180, 
+        "rating": 5,
+        "inStock": true,
+        "categoriesId": [1,3,5],
+        "brandId": 3,
+        "colorId": 4,
+        "dateAdded": "11-2-2021 12:33:12",
+        "popular": true,
+        "featured": false,
+        "discountId": 0
+
+        
+
+    }
+ ]
