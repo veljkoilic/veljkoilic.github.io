@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 0 auto;
+}
+body{
+    background: #111111;
+    background-image: url("../img/grad.png");
+    background-position: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Hero styles */
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 100vw rgba(20,20,20,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0px;
+
+}
+#header{
+    width: 95%;
+    padding: 0 2.5%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 50px;
+}
+#logo img{
+    width: 200px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#menu span{
+    color: #fff;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+#menu ul{
+    list-style-type: none;
+    position: relative;
+    left: 600px;
+}
+#menu ul.menuActivated, #menu span.menuActivated{
+    left: 0;
+    transition: 0.5s;
+
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+#introduction{
+    width: 60%;
+}
+#introduction h1{
+    font-weight: 700;
+    font-size: 3em;
+    width: 60%;
+}
+#introduction h6{
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+#introduction p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 40%;
+    margin-bottom: 20px;
+
+}
+#introduction p:before{
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    margin: 30px 0;
+}
+#introduction a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #444;
+    padding: 2px 10px;
+    
+}
+#introduction a:before{
+    content: '';
+    width: 0px;
+    height: 25px;
+    background-color: #5328FE;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: -10px;
+
+}
+#introduction a:hover:before{
+    width: 20px;
+    transition: 0.5s all;
+}
+
+#socialMedia{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+.socialIcon{
+    padding: 20px 10px;
+    color: #999;
+    text-decoration: none;
+    
+}
+.socialIcon::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(153, 153, 153, 0);
+    margin: 3px auto;
+    display: block;
+    position: relative;
+    top: 10px;
+   
+}
+
+.socialIcon:hover:after{
+    background-color: rgba(153, 153, 153, 1);
+    top: 0;
+    transition: 0.4s all;
+}
+/* End hero styles */
+/* About me section*/
+#aboutMe{
+    width: 100%;
+}
+#aboutMeImageSection{
+    text-align: center;
+}
+#aboutMeImageSection h2{
+    font-size: 18em;
+    color: rgba(50, 50, 50, 0.3);
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin-top: 150px;
+}
+#aboutMeImageSection img{
+    width: 450px;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    border-radius: 7px;
+    
+}
+#hello{
+    margin-bottom: 150px;
+}
+#hello h5{
+    font-size: 50px;
+    text-align: center;
+}
+#hello h5::after{
+    content: '';
+    display: block;
+    position: relative;
+    top: -35px;
+    background-color: #5328FE;
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: -1;
+}
+#hello p{
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#quote{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+/* End About me section*/
+/* My works start */
+.title{
+    width: 60%;
+}
+.title h2{
+    font-size: 40px;
+}
+.title h2::after{
+    content: '';
+    width: 200px;
+    margin: 25px 0 25px -50px;
+
+    height: 1px;
+    background-color: #fff;
+    display: block;
+}
+.title p{
+    width: 50%;
+    margin-bottom: 60px;
+}
+#myWorksGallery{
+    width: 100%;
+    margin-bottom: 100px;
+}
+#myWorksGallery img{
+    width: 25%;
+    }
+
+#rowOne, #rowTwo{
+    display: flex;
+}
+/* My works end */
+#pricingCards{
+    display: flex;
+    margin-bottom: 100px;
+}
+.card{
+    width: 25%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 100vw rgba(20,20,20,0.5);
+
+
+}
+.card:hover{
+    box-shadow: inset 0 0 0 100vw rgba(20,20,20,0.8);
+    transition: 0.5s all;
+
+}
+.cardContent{
+    opacity: 0; 
+    padding: 40px 20px;
+}
+.cardContent h4{
+    font-size: 18pt;
+
+}
+.cardContent h4::before{
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    top: -10px;
+    left: -20px;
+    margin: 0 10px 0 0px;
+}
+.card:hover .cardContent{
+    opacity: 1;
+    transition: 0.5s all;
+
+}
+.cardContent ul{
+    list-style-type: none;
+    margin: 50px 30px;
+}
+.cardContent ul li:nth-child(odd){
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+.cardContent ul li:nth-child(even){
+    margin: 10px  0 20px 5px;
+    font-size: 20px;
+
+
+}
+.cardContent p {
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+}
+.cardContent a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0.5;
+}
+.cardContent a:hover{
+    opacity: 1;
+    transition: 0.5s all;
+
+}
+.cardContent a::before{
+    content: '';
+    display: inline-block;
+    width: 35px;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    top: -5px;
+    left: -20px;
+}
+.cardContent a:hover:before{
+    left: 105px;
+    width: 115px;
+    transition: ease-in-out 0.5s all;
+    
+    
+}
+.bookPrice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card1{
+    background-image: url('../img/image_pricing_01.jpg');
+
+    
+}
+.card2{
+    background-image: url('../img/image_pricing_02.jpg');
+
+    
+}
+.card3{
+    background-image: url('../img/image_pricing_03.jpg');
+
+    
+}
+.card4{
+    background-image: url('../img/image_pricing_04.jpg');
+
+    
+}
+#bookingForm{
+    width: 60%;
+    margin: 0 auto;
+}
+#bookingForm form{
+    text-align: center;
+    margin-bottom: 250px;
+}
+#bookingForm select{
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+#bookingForm select option{
+    background-color: transparent;
+    color: #111111;
+    font-weight: 700;
+}
+input[type='email'], input[type='text']{
+    width: 500px;
+    display: block;
+    margin: 60px auto 0 auto;
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    opacity: 1;
+    font-weight: 700;
+}
+input[type='email']::placeholder, input[type='text']::placeholder{
+    font-weight: 400;
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    margin-top: 60px;
+    width: 500px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+input[type='submit']{
+    width: 525px;
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 8px 0;
+    cursor: pointer;
+}
+input[type='submit']:hover{
+    background-color: #5328FE;
+    color: #fff;
+    transition: 0.5s all;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(6,6,6,0.90);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(6,6,6,0.90);
+    box-shadow: 0px 0px 50px 0px rgba(6,6,6,0.90);
+}
+#footerWrap{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 100px 0px;
+}
+#footerWrap a {
+    color: #fff;
+    text-decoration: none;
+}
+#footerWrap #contact a {
+    display: block;
+}
+#footerWrap .material-icons{
+    font-size: 20px;
+    padding: 0 5px;
+    position: relative;
+    top: 5px;
+}
+#footerWrap h5{
+    margin-bottom: 15px;
+}
+#office, #contact, #footerSocial{
+    width: 33%;
+}
+#footerSocial a{
+    color: #999;
+}
+#footerSocial a:hover{
+    color: #5328FE;
+    transition: 0.3s;
+}
+#footerWrap::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    margin-top: -50px;
+
+}
+#copyRight{
+    width: 60%;
+    margin: 0 auto;
+}
+#copyRight p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#copyRight a{
+    color: #5328FE;
+    text-decoration: none;
+   
+}
+#copyRight a:hover{
+    color:blue;
+    transition: 0.3s all;
+}
+/* Author page */
+#author{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    
+}
+#authorImage{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+}
+
+#aboutAuthor{
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+
+}
+#aboutAuthorImageSection h2{
+    font-size: 18em;
+    color: rgba(50, 50, 50, 0.3);
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin-top: 150px;
+}
+#aboutAuthorImageSection img{
+    width: 400px;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.90);
+    border-radius: 7px;
+    
+}
+#authorText{
+    margin-bottom: 150px;
+}
+#authorText h5{
+    font-size: 50px;
+    text-align: center;
+}
+#authorText h5::after{
+    content: '';
+    display: block;
+    position: relative;
+    top: -35px;
+    background-color: #5328FE;
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: -1;
+}
+#authorText p{
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+#authorText p span{
+    color: #5328FE;
+}
+#aboutAuthorImageSection h2{
+    font-size: 20em;
+    color: rgba(50, 50, 50, 0.3);
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin-top: 150px;
+}

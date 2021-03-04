@@ -1,0 +1,14 @@
+<rss version="2.0">
+<channel>
+    <item>
+        <title>A new photo has been added</title>
+        <link>https://veljkoilic.github.io/index.html#myWorks</link>
+        <description>There is a new photo that I took recently! Come check it out!</description>
+    </item>
+    <item>
+        <title>A new discount for you!</title>
+        <link>https://veljkoilic.github.io/index.html#pricing</link>
+        <description>A sevice you might like is discounted! Hurry up!</description>
+    </item>
+</channel>
+</rss>
