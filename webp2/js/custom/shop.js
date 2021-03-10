@@ -178,7 +178,6 @@ function filterProductByCategory(e){
 function filterProduct(){
     filters.brands = [];
     filters.colors = [];
-    filters.deckWidths = [];
 
     let brandsChecked = $(".common-filter .head:contains('Brands')+ul li input:checked");
     for(let b of brandsChecked){
@@ -188,10 +187,7 @@ function filterProduct(){
     for(let c of colorsChecked){
         filters.colors.push(parseInt(c.value));
     }
-    let deckWidthsCheked = $(".common-filter .head:contains('Deck Widths')+ul li input:checked");
-    for(let dw of deckWidthsCheked){
-        filters.deckWidths.push(parseFloat(dw.dataset.value));
-    }
+
 
     getJsonProducts(onProductsReceived);
 }
