@@ -10,13 +10,16 @@
 
     if ($.fn.imagesLoaded) {
         proCata.imagesLoaded(function () {
-            proCata.isotope({
-                itemSelector: singleProCata,
-                percentPosition: true,
-                masonry: {
-                    columnWidth: singleProCata
-                }
-            });
+            setTimeout(() => {
+                proCata.isotope({
+                    itemSelector: singleProCata,
+                    percentPosition: true,
+                    masonry: {
+                        columnWidth: singleProCata
+                    }
+                });
+            }, 300);
+ 
         });
     }
 
@@ -115,5 +118,40 @@
             }
         });
     });
+
+
+
+
+    // setTimeout(() => {
+    //     $(document).ready(function(){
+    //          $(".owl-carousel").owlCarousel({
+    //              items: 1,
+    //              nav: true,
+    //              navText: ["Previous", 'Next'],
+    //              autoHeight: true
+
+    
+
+    //          });
+    //          $('.owl-prev , .owl-next').css({
+    //             "color": "#fff",
+    //             "box-shadow": "none",
+    //             "background-color": "#fbb710",
+    //             "padding": "5px 20px",
+    //             "border" : "none",
+    //             "margin-top" : "50px",
+    //             "margin-left" : "20px"
+
+    //          });
+    //          $('.owl-dots').css({"display":"none"});
+
+    // });
+    // }, 1000);
+    
+
+
+
+
+
 
 })(jQuery);

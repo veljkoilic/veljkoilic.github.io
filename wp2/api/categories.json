@@ -2,5 +2,16 @@
     {
         "id": 1,
         "title":"Chairs"
+    },    {
+        "id": 2,
+        "title":"Tables"
+    },    
+    {
+        "id": 3,
+        "title":"Drawers"
+    },
+    {
+        "id": 4,
+        "title":"Wardrobes"
     }
  ]

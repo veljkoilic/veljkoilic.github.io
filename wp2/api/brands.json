@@ -1,6 +1,22 @@
  [
     {
         "id": 1,
+        "title":"Amado"
+    },
+    {
+        "id": 2,
         "title":"Ikea"
+    },
+    {
+        "id": 3,
+        "title":"Furniture Inc"
+    },
+    {
+        "id": 4,
+        "title":"The Factory"
+    },
+    {
+        "id": 5,
+        "title":"Art Deco"
     }
  ]

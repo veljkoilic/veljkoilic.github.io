@@ -1132,7 +1132,10 @@ img {
     line-height: 40px;
     padding: 0;
     text-align: center;
-    color: #242424; }
+    color: #242424; 
+    background-color: #fbb710; 
+
+  }
     .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
       color: #fff;
       box-shadow: none;

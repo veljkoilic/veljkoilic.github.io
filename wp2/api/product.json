@@ -1,26 +1,360 @@
  [
     {
-        "id": 1,
-        "title":"John",
+      "id": 1,
+      "title":"Leather Supreme",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+      "images": [
+                  {"src": "./img/chairs/1.jpg", "alt":"Chair1"},
+                  {"src": "./img/chairs/1-2.jpg", "alt":"Chair2"},
+                  {"src": "./img/chairs/1-3.jpg", "alt":"Chair3"}
+                ],
+      "price": 260, 
+      "rating": 3,
+      "inStock": true,
+      "category": 1,
+      "brandId": 3,
+      "colorId": 4,
+      "dateAdded": "11-2-2021 12:33:12",
+      "popular": true,
+      "featured": true,
+      "discountId": 0
+
+  },
+  
+    {
+      "id": 2,
+      "title":"Solid Black",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+      "images": [
+                  {"src": "./img/chairs/2.jpg", "alt":"Chair1"},
+                  {"src": "./img/chairs/2-2.jpg", "alt":"Chair2"},
+                  {"src": "./img/chairs/2-3.jpg", "alt":"Chair3"}
+                ],
+      "price": 113, 
+      "rating": 5,
+      "inStock": true,
+      "category": 1,
+      "brandId": 3,
+      "colorId": 4,
+      "dateAdded": "11-2-2021 12:33:12",
+      "popular": true,
+      "featured": true,
+      "discountId": 0
+
+  },
+  {
+    "id": 3,
+    "title":"Wooden Delight",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+    "images": [
+                {"src": "./img/chairs/3.jpg", "alt":"Chair1"},
+                {"src": "./img/chairs/3-2.jpg", "alt":"Chair2"},
+                {"src": "./img/chairs/3-3.jpg", "alt":"Chair3"}
+              ],
+    "price": 35, 
+    "rating": 5,
+    "inStock": true,
+    "category": 1,
+    "brandId": 3,
+    "colorId": 4,
+    "dateAdded": "11-2-2021 12:33:12",
+    "popular": true,
+    "featured": true,
+    "discountId": 0
+
+},
+{
+  "id": 4,
+  "title":"Family Dusk",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+  "images": [
+              {"src": "./img/tables/1.jpg", "alt":"Chair1"},
+              {"src": "./img/tables/1-2.jpg", "alt":"Chair2"},
+              {"src": "./img/tables/1-3.jpg", "alt":"Chair3"}
+            ],
+  "price": 210, 
+  "rating": 5,
+  "inStock": true,
+  "category": 2,
+  "brandId": 3,
+  "colorId": 4,
+  "dateAdded": "11-2-2021 12:33:12",
+  "popular": true,
+  "featured": true,
+  "discountId": 0
+
+},
+{
+"id": 5,
+"title":"Working Matter",
+"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+"images": [
+            {"src": "./img/tables/2.jpg", "alt":"Chair1"},
+            {"src": "./img/tables/2-2.jpg", "alt":"Chair2"},
+            {"src": "./img/tables/2-3.jpg", "alt":"Chair3"}
+          ],
+"price": 320, 
+"rating": 5,
+"inStock": true,
+"category": 2,
+"brandId": 3,
+"colorId": 4,
+"dateAdded": "11-2-2021 12:33:12",
+"popular": true,
+"featured": true,
+"discountId": 0
+
+},
+{
+"id": 6,
+"title":"Transformer Range",
+"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+"images": [
+          {"src": "./img/tables/3.jpg", "alt":"Chair1"},
+          {"src": "./img/tables/3-2.jpg", "alt":"Chair2"},
+          {"src": "./img/tables/3-3.jpg", "alt":"Chair3"}
+        ],
+"price": 180, 
+"rating": 5,
+"inStock": true,
+"category": 2,
+"brandId": 3,
+"colorId": 4,
+"dateAdded": "11-2-2021 12:33:12",
+"popular": true,
+"featured": true,
+"discountId": 0
+
+},
+{
+  "id": 7,
+  "title":"Orderly",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+  "images": [
+              {"src": "./img/drawers/1.jpg", "alt":"Chair1"},
+              {"src": "./img/drawers/1-2.jpg", "alt":"Chair2"},
+              {"src": "./img/drawers/1-3.jpg", "alt":"Chair3"}
+            ],
+  "price": 210, 
+  "rating": 5,
+  "inStock": true,
+  "category": 3,
+  "brandId": 3,
+  "colorId": 4,
+  "dateAdded": "11-2-2021 12:33:12",
+  "popular": true,
+  "featured": true,
+  "discountId": 0
+
+},
+{
+"id": 8,
+"title":"Cream Love",
+"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+"images": [
+            {"src": "./img/drawers/2.jpg", "alt":"Chair1"},
+            {"src": "./img/drawers/2-2.jpg", "alt":"Chair2"},
+            {"src": "./img/drawers/2-3.jpg", "alt":"Chair3"}
+          ],
+"price": 320, 
+"rating": 5,
+"inStock": true,
+"category": 3,
+"brandId": 3,
+"colorId": 4,
+"dateAdded": "11-2-2021 12:33:12",
+"popular": true,
+"featured": true,
+"discountId": 0
+
+},
+{
+"id": 9,
+"title":"Drawer Master",
+"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+"images": [
+          {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+          {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+          {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+        ],
+"price": 180, 
+"rating": 5,
+"inStock": true,
+"category": 3,
+"brandId": 3,
+"colorId": 4,
+"dateAdded": "11-2-2021 12:33:12",
+"popular": true,
+"featured": true,
+"discountId": 0
+
+},
+{
+"id": 10,
+"title":"Drawer Master",
+"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+"images": [
+          {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+          {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+          {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+        ],
+"price": 180, 
+"rating": 5,
+"inStock": true,
+"category": 3,
+"brandId": 3,
+"colorId": 4,
+"dateAdded": "11-2-2021 12:33:12",
+"popular": true,
+"featured": true,
+"discountId": 0
+
+},
+{
+  "id": 10,
+  "title":"Drawer Master",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+  "images": [
+            {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+            {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+            {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+          ],
+  "price": 180, 
+  "rating": 5,
+  "inStock": true,
+  "category": 3,
+  "brandId": 3,
+  "colorId": 4,
+  "dateAdded": "11-2-2021 12:33:12",
+  "popular": true,
+  "featured": true,
+  "discountId": 0
+  
+  },
+  {
+    "id": 10,
+    "title":"Drawer Master",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+    "images": [
+              {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+              {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+              {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+            ],
+    "price": 180, 
+    "rating": 5,
+    "inStock": true,
+    "category": 3,
+    "brandId": 3,
+    "colorId": 4,
+    "dateAdded": "11-2-2021 12:33:12",
+    "popular": true,
+    "featured": true,
+    "discountId": 0
+    
+    },
+    {
+      "id": 10,
+      "title":"Drawer Master",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+      "images": [
+                {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+                {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+                {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+              ],
+      "price": 180, 
+      "rating": 5,
+      "inStock": true,
+      "category": 3,
+      "brandId": 3,
+      "colorId": 4,
+      "dateAdded": "11-2-2021 12:33:12",
+      "popular": true,
+      "featured": true,
+      "discountId": 0
+      
+      },
+      {
+        "id": 10,
+        "title":"Drawer Master",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
         "images": [
-                    {"src": "./img/1.jpg", "alt":"Chair1"},
-                    {"src": "./img/1.jpg", "alt":"Chair1"},
-                    {"src": "./img/1.jpg", "alt":"Chair1"},
-                    {"src": "./img/1.jpg", "alt":"Chair1"}
-                  ],
+                  {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+                  {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+                  {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+                ],
         "price": 180, 
         "rating": 5,
         "inStock": true,
-        "categoriesId": [1,3,5],
+        "category": 3,
         "brandId": 3,
         "colorId": 4,
         "dateAdded": "11-2-2021 12:33:12",
         "popular": true,
-        "featured": false,
+        "featured": true,
         "discountId": 0
-
         
-
-    }
+        },
+        {
+          "id": 10,
+          "title":"Drawer Master",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+          "images": [
+                    {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+                    {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+                    {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+                  ],
+          "price": 180, 
+          "rating": 5,
+          "inStock": true,
+          "category": 3,
+          "brandId": 3,
+          "colorId": 4,
+          "dateAdded": "11-2-2021 12:33:12",
+          "popular": true,
+          "featured": true,
+          "discountId": 0
+          
+          },
+          {
+            "id": 10,
+            "title":"Drawer Master",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+            "images": [
+                      {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+                      {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+                      {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+                    ],
+            "price": 180, 
+            "rating": 5,
+            "inStock": true,
+            "category": 3,
+            "brandId": 3,
+            "colorId": 4,
+            "dateAdded": "11-2-2021 12:33:12",
+            "popular": true,
+            "featured": true,
+            "discountId": 0
+            
+            },
+            {
+              "id": 10,
+              "title":"Drawer Master",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid quae eveniet culpa officia quidem mollitia impedit iste asperiores nisi reprehenderit consequatur, autem, nostrum pariatur enim?",
+              "images": [
+                        {"src": "./img/drawers/3.jpg", "alt":"Chair1"},
+                        {"src": "./img/drawers/3-2.jpg", "alt":"Chair2"},
+                        {"src": "./img/drawers/3-3.jpg", "alt":"Chair3"}
+                      ],
+              "price": 180, 
+              "rating": 5,
+              "inStock": true,
+              "category": 3,
+              "brandId": 3,
+              "colorId": 4,
+              "dateAdded": "11-2-2021 12:33:12",
+              "popular": true,
+              "featured": true,
+              "discountId": 0
+              
+              }
  ]

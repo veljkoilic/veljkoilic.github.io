@@ -1,0 +1,323 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Plain Black ",
+            "description": "Minimalism in chairs experienced to the fullest. A remarkable chair for a remarkable sitting experience",
+            "dateReleased": "2021-03-08",
+            "brand": {
+                "id": 1,
+                "name": "Ikea"
+            },
+            "img":{
+                "src": "img/custom/products/chairs/1.jpg",
+                "alt": "Plain Black Chair"
+            },
+            "specifications": {
+                "deckWidth": 8.0,
+                "deckLength": 31.5,
+                "truckHeight": 5.0,
+                "wheelbase": 14.0
+            },
+            "price": {
+                "oldPrice": 79.99,
+                "newPrice": 64.99
+            },
+            "colors" : [
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Chairs"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Blacker Black",
+            "description": "Experience the true BLACK chair, this chair will fill any dark or light ambient and will easily become the centerpiece of the room",
+            "dateReleased": "2021-03-08",
+            "brand": {
+                "id": 1,
+                "name": "Ikea"
+            },
+            "img":{
+                "src": "img/custom/products/chairs/3.jpg",
+                "alt": "Really Black Chair"
+            },
+            "specifications": {
+                "deckWidth": 7.5,
+                "deckLength": 31.25,
+                "truckHeight": 5.0,
+                "wheelbase": 13.875
+            },
+            "price": {
+                "oldPrice": 99.99
+            },
+            "colors" : [
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 1,
+                "name": "Chairs"
+            }
+        },
+        {
+            "id": 3,
+            "name": "The office standard",
+            "description": null,
+            "dateReleased": "2021-03-09",
+            "brand": {
+                "id": 2,
+                "name": "Art Deco"
+            },
+            "img":{
+                "src": "img/custom/products/chairs/2.jpg",
+                "alt": "Office chair"
+            },
+            "specifications": {
+                "deckWidth": 8.25,
+                "deckLength": 32,
+                "truckHeight": 5.5,
+                "wheelbase": 14.25
+            },
+            "price": {
+                "oldPrice": 119.99
+            },
+            "colors" : [
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+
+            ],
+            "category": {
+                "id": 1,
+                "name": "Chairs"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Wooden Delight",
+            "description": null,
+            "dateReleased": "2020-03-22",
+            "brand": {
+                "id": 2,
+                "name": "Art Deco"
+            },
+            "img":{
+                "src": "img/custom/products/tables/1.jpg",
+                "alt": "Wooden table"
+            },
+            "specifications": {
+                "deckWidth": 8.125,
+                "deckLength": 32,
+                "truckHeight": 5.25,
+                "wheelbase": 14.25
+            },
+            "price": {
+                "oldPrice": 129.99,
+                "newPrice": 109.99
+            },
+            "colors" : [
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Tables"
+            }
+        },
+        {
+            "id": 5,
+            "name": "White Plain",
+            "description": null,
+            "dateReleased": "2021-03-06",
+            "brand": {
+                "id": 4,
+                "name": "Furnier"
+            },
+            "img":{
+                "src": "img/custom/products/tables/2.jpg",
+                "alt": "White Plain table"
+            },
+            "specifications": {
+                "deckWidth": 8,
+                "deckLength": 28.5,
+                "truckHeight": null,
+                "wheelbase": 14.7
+            },
+            "price": {
+                "oldPrice": 145.99,
+                "newPrice": 129.99
+            },
+            "colors" : [
+                {
+                    "id": 7,
+                    "name": "White",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Tables"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Monolithic Mastery",
+            "description": null,
+            "dateReleased": "2021-03-2",
+            "brand": {
+                "id": 4,
+                "name": "Furnier"
+            },
+            "img":{
+                "src": "img/custom/products/tables/3.jpg",
+                "alt": "Product image"
+            },
+            "specifications": {
+                "deckWidth": 8.6,
+                "deckLength": 39,
+                "truckHeight": null,
+                "wheelbase": 30
+            },
+            "price": {
+                "oldPrice": 329.99,
+                "newPrice": 299.99
+            },
+            "colors" : [
+                {
+                    "id": 9,
+                    "name": "Gray",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 2,
+                "name": "Tables"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Dotted Draw",
+            "description": null,
+            "dateReleased": "2021-03-13",
+            "brand": {
+                "id": 4,
+                "name": "Furnier"
+            },
+            "img":{
+                "src": "img/custom/products/drawers/1.jpg",
+                "alt": "Dotted Draw"
+            },
+            "specifications": {
+                "deckWidth": 8.8,
+                "deckLength": 27.7,
+                "truckHeight": 8,
+                "wheelbase": 16.5
+            },
+            "price": {
+                "oldPrice": 159.99,
+                "newPrice": 139.99
+            },
+            "colors" : [
+                {
+                    "id": 7,
+                    "name": "White",
+                    "hex": null
+                },
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Drawers"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Simple Nordic",
+            "description": "This drawer is made for a home environment. As soon as you feel the warmth it provides, you will be blown away",
+            "dateReleased": "2021-03-4",
+            "brand": {
+                "id": 1,
+                "name": "Ikea"
+            },
+            "img":{
+                "src": "img/custom/products/drawers/2.jpg",
+                "alt": "Simple Nordic drawer"
+            },
+            "specifications": {
+                "deckWidth": 8.125,
+                "deckLength": 32,
+                "truckHeight": 5.5,
+                "wheelbase": null
+            },
+            "price": {
+                "oldPrice": 199.99,
+                "newPrice": 179.99
+            },
+            "colors" : [
+                {
+                    "id": 4,
+                    "name": "Natural",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Drawers"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Simple Nordic Black",
+            "description": null,
+            "dateReleased": "2020-03-21",
+            "brand": {
+                "id": 5,
+                "name": "Nip"
+            },
+            "img":{
+                "src": "img/custom/products/drawers/3.jpg",
+                "alt": "Simple Nordic Black Drawer"
+            },
+            "specifications": {
+                "deckWidth": 8.6,
+                "deckLength": 38,
+                "truckHeight": 7,
+                "wheelbase": null
+            },
+            "price": {
+                "oldPrice": 299.99,
+                "newPrice": null
+            },
+            "colors" : [
+                {
+                    "id": 11,
+                    "name": "Black",
+                    "hex": null
+                }
+            ],
+            "category": {
+                "id": 3,
+                "name": "Drawers"
+            }
+        }
+    ]
+}
