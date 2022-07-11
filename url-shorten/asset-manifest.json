@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/url-shorten/static/css/main.7508cc0c.css",
+    "main.js": "/url-shorten/static/js/main.2e807c6a.js",
+    "index.html": "/url-shorten/index.html",
+    "main.7508cc0c.css.map": "/url-shorten/static/css/main.7508cc0c.css.map",
+    "main.2e807c6a.js.map": "/url-shorten/static/js/main.2e807c6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7508cc0c.css",
+    "static/js/main.2e807c6a.js"
+  ]
+}
