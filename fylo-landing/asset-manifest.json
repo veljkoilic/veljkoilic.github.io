@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/speed-typer/static/css/main.07891c24.css",
+    "main.js": "/speed-typer/static/js/main.09d2ed77.js",
+    "index.html": "/speed-typer/index.html",
+    "static/media/bg-curvy-desktop.svg": "/speed-typer/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
+    "main.07891c24.css.map": "/speed-typer/static/css/main.07891c24.css.map",
+    "main.09d2ed77.js.map": "/speed-typer/static/js/main.09d2ed77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07891c24.css",
+    "static/js/main.09d2ed77.js"
+  ]
+}
