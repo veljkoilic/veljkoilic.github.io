@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/speed-typer/static/css/main.07891c24.css",
-    "main.js": "/speed-typer/static/js/main.09d2ed77.js",
-    "index.html": "/speed-typer/index.html",
-    "static/media/bg-curvy-desktop.svg": "/speed-typer/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
-    "main.07891c24.css.map": "/speed-typer/static/css/main.07891c24.css.map",
-    "main.09d2ed77.js.map": "/speed-typer/static/js/main.09d2ed77.js.map"
+    "main.css": "/fylo-landing/static/css/main.09639ae8.css",
+    "main.js": "/fylo-landing/static/js/main.09d2ed77.js",
+    "index.html": "/fylo-landing/index.html",
+    "static/media/bg-curvy-desktop.svg": "/fylo-landing/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
+    "main.09639ae8.css.map": "/fylo-landing/static/css/main.09639ae8.css.map",
+    "main.09d2ed77.js.map": "/fylo-landing/static/js/main.09d2ed77.js.map"
   },
   "entrypoints": [
-    "static/css/main.07891c24.css",
+    "static/css/main.09639ae8.css",
     "static/js/main.09d2ed77.js"
   ]
 }
